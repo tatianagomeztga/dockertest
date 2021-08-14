@@ -14,4 +14,4 @@ EXPOSE 5000
 #CORRER EL CONTENEDOR
 #CMD node app.js
 #lo manda al proceso que esta corriendo, de la manera de abajo lo corre como un hijo
-CMD ['node', 'app.js']
+CMD ["node", "app.js"]
