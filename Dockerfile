@@ -4,7 +4,7 @@ FROM node:14
 WORKDIR /dockertest
 
 # AÑADIR EL PACKAGE
-ADD package.json package.lock.json /dockertest/
+ADD package.json package-lock.json /dockertest/
 # INSTALAR DEPENDENCIAS
 RUN npm install
 # Copiar el codigo
